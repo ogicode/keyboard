@@ -11,7 +11,7 @@
     <div class="container">
         <input type="text" id="textInput" placeholder="Click on the keys to type" />
         <div class="keyboard">
-            <div class="row">
+            <div class="row" id="row1">
                 <button class="key">Q</button>
                 <button class="key">W</button>
                 <button class="key">E</button>
@@ -23,7 +23,7 @@
                 <button class="key">O</button>
                 <button class="key">P</button>
             </div>
-            <div class="row">
+            <div class="row" id="row2">
                 <button class="key">A</button>
                 <button class="key">S</button>
                 <button class="key">D</button>
@@ -34,7 +34,7 @@
                 <button class="key">K</button>
                 <button class="key">L</button>
             </div>
-            <div class="row">
+            <div class="row" id="row3">
                 <button class="key">Z</button>
                 <button class="key">X</button>
                 <button class="key">C</button>
@@ -46,6 +46,8 @@
                 <button class="key">Backspace</button>
             </div>
         </div>
+        <!-- Language Toggle Button -->
+        <button id="languageToggle">Switch to German</button>
     </div>
 
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
