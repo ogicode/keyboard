@@ -12,7 +12,7 @@ const englishKeys = {
 
 const germanKeys = {
     row1: ['Q', 'W', 'E', 'R', 'T', 'Z', 'U', 'I', 'Ö', 'P'],
-    row2: ['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L'],
+    row2: ['Ä', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L'],
     row3: ['Y', 'X', 'C', 'V', 'B', 'N', 'M']
 };
 
